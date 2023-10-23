@@ -18,14 +18,14 @@
 
     <?php
 
-        include_once("assets/componentes/cabecalho.html");
+        include_once("assets/components/cabecalho.html");
 
     ?>
 
 
-    <div id="banner">
+    <div id="class-container">
     
-        <img src="assets/img/banner.png" alt="">
+        <img src="assets/img/banner.png" alt="tws">
 
     </div>
 
@@ -87,7 +87,7 @@
 
     <?php
 
-        include_once("assets/componentes/rodape.html");
+        include_once("assets/components/rodape.html");
 
     ?>
 

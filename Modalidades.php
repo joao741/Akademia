@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include_once("assets/componentes/cabecalho.html");
+        include_once("assets/components/cabecalho.html");
     ?>
 
     <h2>Quem somos?</h2>
