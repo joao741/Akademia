@@ -15,9 +15,9 @@
         $nomecompleto = $_REQUEST['nomecompleto'];
         $email = $_REQUEST['email'];
         $telefone = $_REQUEST['telefone'];
-        $endereço = $_REQUEST['endereço'];
+        $endereco = $_REQUEST['endereco'];
 
-        $sql = "INSERT INTO cadastro (nomecompleto, email, telefone, endereco) VALUES ('$nomecompleto', '$email', '$telefone', '$endereco')";
+        $sql = "INSERT INTO cadastro (nomecompleto, email, telefone, endereco) VALUES ('$nomecompleto', '$email', $telefone, '$endereco')";
 
         if ($conn->query($sql) == TRUE)
         {
@@ -33,7 +33,7 @@
 
     ?>
 
-    <a href="../../../index.html">Voltar ao início</a>
+    <a href="../../../index.php">Voltar ao início</a>
     
 </body>
 </html>

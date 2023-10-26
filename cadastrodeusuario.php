@@ -7,19 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+
+?>   
     <h1>Meu site</h1>
 
     <h2>Cadastre-se já</h2>
 
-    <form action="assets/db/pessoa/insert.php" method="POST">
+    <form action="db/pessoa/insert.php" method="POST">
         <label for="nomecompleto">Nome Completo</label> <br>
-        <input type="text" name="nome">         <br>
+        <input type="text" name="nomecompleto">         <br>
         <label for="email">E-mail</label>       <br>
         <input type="email" name="email">       <br>
         <label for="telefone">Telefone</label>  <br>
-        <input type="telefone" name="telefone"> <br>
-        <label for="endereço">Endereço</label>  <br>
-        <input type="endereço" name="endereço"> <br>
+        <input type="text" name="telefone"> <br>
+        <label for="endereco">Endereço</label>  <br>
+        <input type="text" name="endereco"> <br>
         <input type="submit" value="Enviar">    <br><br>
     </form>
 </body>
