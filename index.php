@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <title>Academia</title>
 
@@ -45,6 +46,8 @@
 
     </selection>
 
+
+    <div class="corpo">
  
 
     <div class="class-container">
@@ -72,6 +75,8 @@
         <img src="assets/img/yoga.png" alt="">
 
         <h3>Yoga</h3>
+
+    </div>
 
     </div>
 
