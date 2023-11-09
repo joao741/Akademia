@@ -24,6 +24,6 @@
         <label for="endereco">Endereço</label>  <br>
         <input type="text" name="endereco"> <br>
         <input type="submit" value="Enviar">    <br><br>
-    </form>
+    </form> 
 </body>
 </html>

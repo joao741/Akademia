@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
 </head>
 <body>
 
@@ -13,16 +12,13 @@
 
         include_once("../conn.php");
 
-        $nomecompleto = $_REQUEST['nomecompleto'];
-        $email = $_REQUEST['email'];
-        $telefone = $_REQUEST['telefone'];
-        $endereco = $_REQUEST['endereco'];
+        $id = $_GET["id"];
 
-        $sql = "INSERT INTO cadastro (nomecompleto, email, telefone, endereco) VALUES ('$nomecompleto', '$email', $telefone, '$endereco')";
+        $sql = "DELETE FROM cadastro WHERE idcadastro = $id";
 
         if ($conn->query($sql) == TRUE)
         {
-            echo "<p>Cadastro realizado.</p>";
+            echo "<p>Cadastro excluído com sucesso.</p>";
         }
         else
         {
@@ -34,7 +30,7 @@
 
     ?>
 
-    <a href="../../../index.php">Voltar ao início</a>
+    <a href="../../../index.html">Voltar ao início</a>
     
 </body>
 </html>
